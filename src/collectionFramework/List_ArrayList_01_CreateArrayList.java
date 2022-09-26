@@ -20,6 +20,7 @@ public class List_ArrayList_01_CreateArrayList {
 		list1.add(5.5);
 		
 		
+		
 		ArrayList list2=new ArrayList(15);//using parameterized constructor--capacity is 15
 		list1.add(5);
 		list1.add("String");

@@ -37,7 +37,9 @@ public class List_ArrayList_02_ArrayVsArrayList {
 		list.add(150);
 		list.add(150);
 		list.add(150);
-		list.add(150);
+		list.add("Mithu");
+		
+		System.out.println(list);
 		
 		
 		//how to retrive in array

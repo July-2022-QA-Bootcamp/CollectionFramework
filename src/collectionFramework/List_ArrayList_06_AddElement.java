@@ -8,11 +8,12 @@ public class List_ArrayList_06_AddElement {
 		ArrayList<Integer> list=new ArrayList<Integer>();
 		list.add(5);//index? 2
 		list.add(50);//33
-		list.add(1,15); //explicitly it is holding the index position
+		//list.add(1,15); //explicitly it is holding the index position
 		list.add(25);//3
 		list.add(35);//4
 		list.add(0,55);//0
 		
+		System.out.println(list.get(2));
 		//addAll()---we are adding whole objects in an exting arrayList
 		ArrayList<Integer> list2=new ArrayList<Integer>();
 		list2.add(102); 

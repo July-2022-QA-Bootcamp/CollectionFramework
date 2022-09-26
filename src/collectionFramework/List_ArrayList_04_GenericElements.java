@@ -4,15 +4,15 @@ import java.util.ArrayList;
 
 public class List_ArrayList_04_GenericElements {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 ArrayList<Integer> list=new ArrayList<Integer>();
 		list.add(5);
 		list.add(50);
-		list.add(15);
-		list.add(25);
+		//list.add(15.5);
+		//list.add('C');
 		list.add(35);
 		list.add(5);
-		
+	System.out.println(list.get(0));	
 		
 ArrayList<String> list2=new ArrayList<>();
 

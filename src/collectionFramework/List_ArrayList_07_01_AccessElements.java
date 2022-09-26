@@ -24,14 +24,18 @@ public class List_ArrayList_07_01_AccessElements {
 		//to get all elements we can use iterator()
 		
 		for(String name:list2) {
-			System.out.println(name);
-			
+			System.out.println(name);	
+		}
+		
+		
+		for(int i=0;i<list2.size();i++) {
+			System.out.println(list2.get(i));  //i=0---> list2.get(0)  i=1---> list2.get(1)
 		}
 		
 		
 		Iterator<String> it=list2.iterator();
 		while(it.hasNext()) {
-			System.out.println(it.next());
+			System.out.print(" "+ it.next());
 		}
 		
 	}
