@@ -38,15 +38,17 @@ public class CheckSyncronization_ArrayList {
 	public static void main(String[] args) throws Throwable {
 		//creating new Threads
 		 Thread t1=new Thread(new Runnable() {
-			@Override
-			public void run() {
-				
-				for(int i=0;i<1000;i++) {
-					insertElement();
+				@Override
+				public void run() {
 					
+					for(int i=0;i<1000;i++) {
+						insertElement();
+						
+					}
 				}
 			}
-		});
+					 
+			 );
 		 	 
 		 
 		 Thread t2=new Thread(new Runnable() {
@@ -83,7 +85,7 @@ public class CheckSyncronization_ArrayList {
 		 
 		 
 		 
-		 System.out.println(list.size()); //2000
+		 System.out.println(list.size()); //3000
 		
 		 
 		 
