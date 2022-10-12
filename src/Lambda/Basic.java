@@ -24,8 +24,15 @@ public class Basic {
 			System.out.println(single);
 		}
 		
-		queue.forEach(n -> System.out.println(n));
-		
+		queue.forEach(n -> System.out.println(n));//used lambda expression
+		/*
+		 A lambda expression is a short block of code which takes in parameters and returns a value. 
+		 Lambda expressions are similar to methods, but they do not need a name and they can be 
+		 implemented right in the body of a method
+		 Lambda expressions basically express instances of functional interfaces 
+		 (An interface with single abstract method is called functional interface. An example is java.lang.Runnable). 
+		 lambda expressions implement the only abstract function and therefore implement functional interfaces
+		-lambda expressions are added in Java 8*/
 		
 		
 		

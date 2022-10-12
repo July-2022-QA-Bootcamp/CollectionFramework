@@ -19,8 +19,8 @@ public class Queue_01_PriorityQueue_basic {
 		q.offer(5);
 		q.offer(25);
 		q.offer(15);
-		// Front 500 50 5 25 15 Rear
-		System.out.println(q.size());
+		
+		
 		System.out.println(q.peek());
 		
 		for(int i=0;i<5;i++) {

@@ -6,6 +6,11 @@ import java.util.Queue;
 
 public class Queue_Deque_03_removeIf {
 
+	
+	/*
+	 * In this class we will se how removeIf() will remove element after checking 
+	 * */
+	
 	public static void main(String[] args) {
 		//creating obj 
 		Deque<Integer> queue = new LinkedList<>();
@@ -15,7 +20,8 @@ public class Queue_Deque_03_removeIf {
 		queue.offer(35);// 5%3=not 0
 		queue.offer(55);// 5%3=not 0
 		queue.offer(155);// 5%3=not 0
-
+		
+		//before removing
 		System.out.println("Before remove");
 		for (int i : queue) {
 			System.out.println(i);
@@ -26,7 +32,8 @@ public class Queue_Deque_03_removeIf {
 		// using removeIf()--for conditional removing (it will check condition before
 		queue.removeIf( n-> (n % 3 == 0)); 
 		//in Lambda expression-- before (->) n is taking value like parameter and inside parenthesis like method body-using that value 
-
+		
+		//before removing
 		System.out.println("after remove");
 
 		for (int i : queue) {

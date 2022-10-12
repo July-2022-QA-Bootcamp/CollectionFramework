@@ -2,6 +2,9 @@ package collectionFramework;
 
 public class EnthrallStJul22 {
 	
+	/*
+	 WE are creating this class to use in Queue_CustomizedPriorityQueue class*/
+	
 	String name;
 	int result;
 	
